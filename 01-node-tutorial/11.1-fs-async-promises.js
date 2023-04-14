@@ -1,5 +1,5 @@
 const path = require('path');
-const { readFile, writeFile, rename, unlink } = require('fs').promises;
+const { readFile, writeFile, exists, mkdir, rmdir, rename, unlink } = require('fs').promises;
 
 console.log('start task'.toUpperCase());
 
