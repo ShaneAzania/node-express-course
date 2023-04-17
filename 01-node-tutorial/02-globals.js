@@ -19,8 +19,14 @@ fs.readFile(path.join(
 // __filename - file name
 
 // require    - function to use modules (CommonJS)
+/**
+ require('./file_name');
+ */
 
 // module     - info about current module (file)
+/* 
+module.exports = { john, peter }
+*/
 
 // process    - info about env where the program is being executed
 /*
@@ -29,13 +35,9 @@ fs.readFile(path.join(
   console.error(`there was an error: ${err}`);
   process.exit(1);
  })
- */
-/*
+
 // Set a default port if one isn't alreeady provided
 const PORT = process.env.PORT || 3500
 */
 
-console.log(__dirname);
-setInterval(() => {
-	console.log('hello world');
-}, 1000);
+
