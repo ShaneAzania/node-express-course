@@ -30,6 +30,10 @@ fs.readFile(path.join(
   process.exit(1);
  })
  */
+/*
+// Set a default port if one isn't alreeady provided
+const PORT = process.env.PORT || 3500
+*/
 
 console.log(__dirname);
 setInterval(() => {
